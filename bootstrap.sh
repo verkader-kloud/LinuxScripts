@@ -58,7 +58,7 @@ then
         # docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 
         echo "Reboot the server so the driver thats effect"
-        # reboot
+        reboot
 else
         echo "Server does not support NVIDIA GPU"   
 fi
